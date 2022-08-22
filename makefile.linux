@@ -1,0 +1,8 @@
+all: json-parser
+
+json-parser: src/main.c src/json.c
+	gcc -I src/include -o json_parser src/main.c src/json.c
+clean:
+	rm -f json-parser
+
+.PHONY: all clean

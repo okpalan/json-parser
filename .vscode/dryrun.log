@@ -1,6 +1,0 @@
-make.exe --dry-run --keep-going --print-directory
-make: Entering directory 'c:/Users/Devology/MyRepos/json-parser'
-make: Leaving directory 'c:/Users/Devology/MyRepos/json-parser'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
